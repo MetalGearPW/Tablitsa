@@ -1,0 +1,77 @@
+th{
+    border: 1px solid;
+    font-family: sans-serif;
+}
+.tds{
+    border: 1px solid;
+    font-family: sans-serif;
+}
+.minus{
+    border: 1px solid;
+    padding: 2px;
+}
+.plus{
+    border: 1px solid;
+    padding: 2px;
+}
+.slash{
+    border: 1px solid;
+    padding: 2px;
+}
+.d{
+    border: 2px solid;
+    position: absolute;
+    margin-top: 20px;
+}
+input{
+    outline: 2px solid darkgray;
+    background-color: whitesmoke;
+    border: 3px solid transparent;
+}
+.i{
+    border-radius: 3px 0px 0px 3px;
+}
+.ok{
+    outline: 2px solid darkgray;
+    border: 3px solid transparent;
+    border-radius: 0px 3px 3px 0px;
+}
+body{
+    background-image: url(white.png);
+}
+.ar{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 3px;
+    outline: 2px solid darkgray;
+    border: 3px solid transparent;
+}
+.nad{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 3px;
+    outline: 2px solid darkgray;
+    border: 3px solid transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    outline: 2px solid lightgrey;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 10px;
+}
+.minus:hover{color: crimson;}
+.plus:hover{color: limegreen;}
+.slash:hover{color: rgb(255, 40, 10);}
+input:hover{background-color: lightgray;}
+input:active{background-color: white;}
+button:hover{background-color: lightgray;}
+button:active{background-color: white;}
+.btn-success:hover{background-color: lightpink;}
+.btn-danger:hover{background-color: lightblue;}

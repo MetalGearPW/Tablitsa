@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Таблица</title>
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <h1 style="font-family: sans-serif;text-shadow: 2px 2px 2px gray;color: rgb(55, 75, 75);">Таблица</h1>
+    <button class="ar"><a href="arxiv.html">Архив</a></button>
+    <input required="required" placeholder="Имя" class="i" id="inp"/>
+    <input required="required" placeholder="Фамилия" class="inp" id="inp"/>
+    <input required="required" placeholder="Номер Школы" class="inp" id="inp"/>
+    <input required="required" placeholder="Класс" class="inp" id="inp"/>
+    <input required="required" placeholder="Тел.Номер" class="inp" id="inp"/>
+    <input required="required" placeholder="Тел.Номер2" class="inp" id="inp"/>
+    <input required="required" placeholder="Адрес" class="inp" id="inp"/>
+    <button class="ok">Готово</button>
+    <!-- <button>Remove</button>
+    <button>Update</button>
+    <button>Push</button> -->
+    <div class="d">
+     <!-- <code class="is">Ism</code>
+     <code class="fa">Familiya</code>
+     <code class="ma">Maktab</code>
+     <code class="si">Sinf</code>
+     <code class="te">Telefon</code> -->
+     <table>
+        <thead border="2">
+        <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Номер Школы</th>
+            <th>Класс</th>
+            <th>Тел.Номер</th>
+            <th>Тел.Номер2</th>
+            <th>Адрес</th>
+        </tr>
+    </thead>
+        <tbody id="tr"></tbody>
+     </table>
+    </div>
+    <script type="module" src="db.js"></script>
+</body>
+</html>
